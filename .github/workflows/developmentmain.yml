@@ -38,4 +38,4 @@ jobs:
         run: npm install -g surge
         
       - name: Run Surge
-        run: surge ./build first-react-app-waheedafridi.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build first-react-application-waheedafridi.surge.sh --token ${{secrets.SURGE_TOKEN}}
